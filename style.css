@@ -1,0 +1,79 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Arvo', serif;
+    
+ 
+}
+
+* {
+    box-sizing: border-box;
+  } 
+
+.contenitore{
+    width: 1920px;
+    margin: auto;
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 25px;
+    padding: 2%;
+}
+
+.logo{
+    display: block;
+    margin: auto; 
+    width: 15%;
+}
+.logo-text{
+    color: lime;
+    text-align: center;
+    
+}
+
+.button{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: lime;
+    padding: 20px;
+   
+}
+
+.scooter{
+    width: 70%;
+    margin: auto;
+}
+
+.monopattino{
+    padding-top: 20px;
+}
+.scooter-name{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.adress:before{
+    content: "\21A6";
+}
+.charge{
+    
+    height:30px;
+    border-radius:5px;
+
+}
+
+.half{
+    background-color:orange ;
+    width:40%;
+}
+
+.full{
+    background-color: green;
+    width:80%;
+}
+
+.low{
+    background-color:red;
+    width:20%;
+}
